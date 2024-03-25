@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page para ONGs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">Bem-vindo à Nossa Comunidade Solidária</h1>
+            <p class="header-description">Juntos, fazemos a diferença.</p>
+            <a href="#ongs" class="cta-button">Conheça Nossas ONGs</a>
+        </div>
+    </header>
+
+    <section id="ongs">
+        <div class="container">
+            <h2>ONGs em Destaque</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="ong1.jpg" alt="ONG 1">
+                        <h3>ONG 1</h3>
+                        <p>Descrição da ONG 1.</p>
+                        <a href="mais-detalhes-ong1.html">Saiba mais</a>
+                    </div>
+                    <div class="slide">
+                        <img src="ong2.jpg" alt="ONG 2">
+                        <h3>ONG 2</h3>
+                        <p>Descrição da ONG 2.</p>
+                        <a href="mais-detalhes-ong2.html">Saiba mais</a>
+                    </div>
+                    <!-- Adicione mais ONGs aqui -->
+                </div>
+                <div class="slider-nav">
+                    <button class="prev-slide" onclick="changeSlide(-1)">Anterior</button>
+                    <button class="next-slide" onclick="changeSlide(1)">Próximo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="ongs">
+        <div class="container">
+            <h2>ONGs Parceiras</h2>
+            <div class="ong">
+                <img src="ong1.jpg" alt="ONG 1">
+                <h3>ONG 1</h3>
+                <p>Descrição da ONG 1.</p>
+                <a href="mais-detalhes-ong1.html">Saiba mais</a>
+            </div>
+            <div class="ong">
+                <img src="ong2.jpg" alt="ONG 2">
+                <h3>ONG 2</h3>
+                <p>Descrição da ONG 2.</p>
+                <a href="mais-detalhes-ong2.html">Saiba mais</a>
+            </div>
+            <!-- Adicione mais ONGs aqui -->
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>
+                A nossa iniciativa nasceu da paixão por fazer a diferença em nossas comunidades. Trabalhamos com diversas ONGs incríveis para promover mudanças positivas. Nosso objetivo é fornecer apoio e visibilidade a projetos sociais que impactam a vida das pessoas. Junte-se a nós nessa jornada de solidariedade e transformação!
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>
+                Estamos sempre à disposição para responder às suas perguntas e ouvir suas sugestões. Entre em contato conosco através do email: <a href="mailto:contato@suapagina.com">contato@suapagina.com</a>.
+            </p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; Seu Nome ou Organização - <span id="currentYear"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
